@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Contact Us</h1>
+    <p class="lead">Feel free to send us a message if you have any questions!</p>
+  </div>
+</div>
+
+<section id="contactform">
+	<div class="container">
+		<form method="post">
+			{% csrf_token %}
+			{{ form|crispy }}
+			<input type="submit" value="Submit" class="btn btn-primary" />
+		</form>
+	</div>
+
+</section>
+<br>
+
+{% endblock %}

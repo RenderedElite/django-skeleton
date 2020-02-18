@@ -8,7 +8,7 @@ I built this project real quick to help me kickstart my future projects using Dj
 
 Currently has a working website with a functional Contact Form. 
 
-#Pages Included: 
+**Pages Included:**
 	- Home
 	- About
 	- Pricing
@@ -16,9 +16,9 @@ Currently has a working website with a functional Contact Form.
 	- Register
 	- Login
 	
-#Register/Login is fully functional
+**Register/Login is fully functional**
 
-#Features I'll be adding: 
+**Features I'll be adding:**
 	- Ability to update website content from Django admin
 	- That's it for now - open to request if anyone finds this useful
 	

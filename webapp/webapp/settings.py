@@ -36,7 +36,6 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'sendemail.apps.SendemailConfig',
     'crispy_forms',
     'django.contrib.staticfiles',
     'register.apps.RegisterConfig',
@@ -130,5 +129,3 @@ LOGIN_REDIRECT_URL = "/"
 LOGOUT_REDIRECT_URL = "/"
 
 
-#EMAIL 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
